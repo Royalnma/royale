@@ -1,0 +1,48 @@
+
+.List {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  display: flex;
+  flex-flow: row wrap;
+  
+}
+.each {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  text-decoration: none;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 5px;
+  background-color: rgb(0,30,36);
+  
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.crawl {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.date {
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+}
+.link {
+  color: yellowgreen;
+  text-decoration: none;
+}
+body {
+  background-color: black;
+}
+.each:hover {
+  background-color: grey;
+}
+.di {
+  color: white;
+}
